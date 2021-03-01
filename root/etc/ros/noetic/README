@@ -1,8 +1,8 @@
-This directory contains the ROS configuration for your basestation on Melodic.
+This directory contains the ROS configuration for your basestation on Noetic.
 
 Files and their uses are listed below:
 
-/etc/ros/melodic/setup.sh
+/etc/ros/noetic/setup.sh
 
  * Sets up the ROS environment.  This is typically a symlinked to from
    /etc/ros/setup.sh

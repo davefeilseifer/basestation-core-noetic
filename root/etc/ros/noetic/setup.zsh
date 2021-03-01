@@ -1,3 +1,3 @@
 #!/bin/zsh
 CATKIN_SHELL=zsh
-. /etc/ros/melodic/setup.sh
+. /etc/ros/noetic/setup.sh
