@@ -1,0 +1,13 @@
+Source: basestation-core-melodic
+Section: basestation/config
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: basestation-core-melodic
+Architecture: all
+Depends: python, ros-melodic-rqt-pr2-dashboard, ros-melodic-pr2-navigation, ros-melodic-pr2-power-drivers, ros-melodic-pr2-simulator, ros-melodic-joint-qualification-controllers, ros-melodic-pr2-bringup-tests, ros-melodic-pr2-counterbalance-check, ros-melodic-pr2-self-test-msgs
+Description: Provides /etc/ros setup for the basestation on Melodic
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
