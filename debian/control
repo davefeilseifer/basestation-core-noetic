@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: basestation-core-noetic
 Architecture: all
-Depends: python, ros-noetic-rqt-pr2-dashboard, ros-noetic-pr2-navigation, ros-noetic-pr2-power-drivers, ros-noetic-pr2-simulator, ros-noetic-joint-qualification-controllers, ros-noetic-pr2-bringup-tests, ros-noetic-pr2-counterbalance-check, ros-noetic-pr2-self-test-msgs
+Depends: python3, ros-noetic-rqt-pr2-dashboard, ros-noetic-pr2-navigation, ros-noetic-pr2-power-drivers, ros-noetic-pr2-simulator, ros-noetic-joint-qualification-controllers, ros-noetic-pr2-bringup-tests, ros-noetic-pr2-counterbalance-check, ros-noetic-pr2-self-test-msgs
 Description: Provides /etc/ros setup for the basestation on Noetic
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
